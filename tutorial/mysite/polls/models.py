@@ -23,4 +23,4 @@ class Choice(models.Model):
     votes = models.IntegerField()
 
     def __unicode__(self):
-		return self.choice
+	return self.choice
